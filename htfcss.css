@@ -1,0 +1,552 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: Verdana, Arial, sans-serif;
+  background-image: url(http://www.abetterfencecompany.com/wp-content/uploads/2017/05/local-fence-company.jpg);
+  background-color: #858508;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+  background-size: cover;
+}
+
+header {
+  height: 150px;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-left: 100px;
+  color: azure;
+  font-weight: 700;
+  font-size: 5em;
+  text-shadow: 3px 3px #000000;
+}
+
+h3 {
+  text-align: center;
+  color: azure;
+  text-shadow: 2px 2px #000000;
+}
+
+h2 {
+  text-align: center;
+  color: azure;
+  text-shadow: 2px 2px #000000;
+}
+
+hr {
+  color: white;
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+  border-top: 2px;
+  padding-top: 10px;
+}
+
+main {
+  padding: 30px;
+}
+
+#iframeTbl {
+  padding-top: 20px;
+}
+
+#bing {
+  box-shadow: 3px 3px #000000;
+  border-radius: 25px;
+}
+
+#indexphone {
+  color: whitesmoke;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  padding-top: 10px;
+  text-shadow: 3px 3px #000000;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+  font-weight: bold;
+  background-color: rgb(44, 44, 44);
+  box-shadow: 3px 3px 3px;
+}
+
+.navbar a {
+  overflow: hidden;
+  text-decoration: none;
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16%;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.navbar a:hover {
+  color: rgb(243, 235, 1);
+  font-size: 120%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.extra {
+  padding-bottom: 290px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.extraabout {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.extramaterial {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.extracontact {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.extragallery {
+  padding-bottom: 1000px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.extraformlanding {
+  padding-bottom: 300px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#wrapper,
+footer {
+  min-width: 900px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+  padding-left: 10px;
+}
+
+#reviewtitle {
+  padding-top: 10%;
+  padding-left: 0%;
+}
+
+#mainpg {
+  width: 40%;
+  float: left;
+  margin: 2%;
+  box-shadow: 3px 3px #000000;
+  border-radius: 25px;
+}
+
+#homeadv {
+  width: 40%;
+  float: right;
+  margin: 2%;
+  padding-top: 0%;
+  box-shadow: 3px 3px #000000;
+  border-radius: 25px;
+}
+
+#aboutpic {
+  width: 300px;
+  box-shadow: 3px 3px #000000;
+  transform: rotate(345deg);
+  border-radius: 25px;
+}
+
+#aboutpicdt {
+  width: 300px;
+  box-shadow: 3px 3px #000000;
+  transform: rotate(15deg);
+  border-radius: 25px;
+}
+
+#aboutusp {
+  text-align: center;
+}
+
+.column {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 3px 3px #000000;
+}
+
+.definition {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outterbox {
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+  display: flex;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px 100px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.grid-item1 {
+  background-color: rgb(38, 38, 38);
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.grid-item2 {
+  background-color: rgb(38, 38, 38);
+  border: 2px solid black;
+  padding: 10px;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 10px;
+  width: 50%;
+}
+
+.phone {
+  display: none;
+}
+
+#phone1 {
+  display: none;
+}
+
+label {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 8em;
+  padding-right: 1em;
+}
+
+input {
+  display: block;
+  margin-bottom: 1em;
+}
+
+#mySubmit {
+  float: none;
+  margin-left: 275px;
+}
+
+#radiob {
+  float: left;
+}
+
+#radioc {
+  float: left;
+}
+
+#radAm {
+  width: 5em;
+  text-align: center;
+}
+
+#radPm {
+  width: 5em;
+  text-align: center;
+}
+
+#fenceType {
+  float: left;
+  padding: 5px;
+  margin: 0;
+}
+
+.gallery {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  box-shadow: 4px 4px;
+  border-radius: 25px;
+}
+
+.gallery4 {
+  width: 30%;
+  float: right;
+  margin: 1.66%;
+  box-shadow: 4px 4px;
+  border-radius: 25px;
+}
+
+.gallery7 {
+  width: 30%;
+  float: right;
+  margin: 1.66%;
+  box-shadow: 4px 4px;
+  border-radius: 25px;
+}
+
+form {
+  padding: 5em;
+  color: whitesmoke;
+}
+
+div #myForm {
+  margin-left: auto;
+  padding-left: 375px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    margin: auto;
+  }
+
+  div #myForm {
+    margin-left: auto;
+    padding-left: 200px;
+  }
+
+  #wrapper {
+    margin-left: auto;
+    width: 80%;
+    min-width: 0;
+    box-shadow: none;
+  }
+  .extra {
+    padding-bottom: 290px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 1em;
+    padding-top: 2em;
+    font-size: 2.5em;
+  }
+
+  main {
+    margin: 0;
+    font-size: 90%;
+  }
+}
+
+.outterbox {
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+  display: flex;
+}
+
+footer {
+  margin: auto;
+  width: 80%;
+  min-width: 0;
+  box-shadow: none;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #wrapper {
+    margin: 0;
+    width: 100%;
+    min-width: 0;
+    box-shadow: none;
+  }
+
+  footer {
+    margin: auto;
+    width: 100%;
+    min-width: 0;
+    box-shadow: none;
+  }
+
+  h3 {
+    padding: 15px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 1em;
+    padding-top: 2em;
+    font-size: 2.2em;
+  }
+
+  a {
+    color: rgb(243, 235, 1);
+    text-decoration: none;
+    font-size: 150%;
+  }
+
+  #indexphone {
+    font-size: 120%;
+    padding-top: 75px;
+    margin: auto;
+  }
+
+  .navbar {
+    float: none;
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar a {
+    font-size: 12px;
+    display: block;
+    padding: 5px;
+  }
+
+  .navbar a:hover {
+    color: rgb(243, 235, 1);
+    font-size: 100%;
+  }
+
+  .phone {
+    display: inline;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .definition {
+    text-align: center;
+  }
+
+  .grid-container {
+    font-size: 15px;
+  }
+
+  #aboutpic {
+    display: flex;
+    width: 80%;
+    padding-left: 10px;
+  }
+
+  #phone1 {
+    display: inline;
+  }
+
+  #desktop1 {
+    display: none;
+  }
+
+  #content {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .extragallery {
+    padding-bottom: 2850px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  div #myForm {
+    padding-left: 100px;
+  }
+
+  #mySubmit {
+    margin: 0;
+  }
+
+  #radPm {
+    font-size: 13px;
+  }
+
+  #radAm {
+    font-size: 13px;
+  }
+
+  #fenceType {
+    padding-left: 50px;
+  }
+
+  .gallery {
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  .gallery4 {
+    width: 80%;
+    float: left;
+    margin-left: 50px;
+  }
+
+  .gallery7 {
+    width: 80%;
+    float: left;
+    margin-left: 50px;
+  }
+
+  #bingp {
+    width: 70%;
+    border-radius: 25px;
+    box-shadow: 3px 3px #000000;
+  }
+
+  #bingvp {
+    width: 90%;
+  }
+
+  .phonebing {
+    padding-left: 20px;
+  }
+}

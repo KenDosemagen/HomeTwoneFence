@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="htfcss.css" />
+    <title>Home Towne Fence - Get A Quote</title>
+  </head>
+  <body>
+    <div id="wrapper" class="extracontact">
+      <div class="navbar">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="materialinfo.html">Material Info</a></li>
+          <li><a href="jobgallery.html">Job Gallery</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="quote.html">Get a Quote</a></li>
+        </ul>
+      </div>
+      <header>
+        <h1>Home Towne Fence</h1>
+        <h2>Submit your information here and we will contact you.</h2>
+        <hr />
+        <br />
+      </header>
+      <main>
+        <div>
+          <div>
+            <form action="formlanding.html" method="GET" id="myForm">
+              <label for="myName">*First Name:</label>
+              <input type="text" name="myName" id="myName" required />
+              <label for="myLast">*Last Name:</label>
+              <input type="text" name="myLast" id="myLast" required />
+              <label for="myAddress">*Address:</label>
+              <input type="text" name="myAdress" id="myAddress" required />
+              <label for="email">*E-mail:</label>
+              <input type="email" name="email" id="email" required />
+              <label for="fenceType">What type of fence do you like?</label>
+              <select name="fenceType" id="fenceType">
+                <option value="select">-- Select One --</option>
+                <option class="bold" value="Wood">Wood</option>
+                <option class="bold" value="ChainLink">Chain Link</option>
+                <option class="bold" value="Vinyl">Vinyl</option>
+                <option class="bold" value="WroughtIron">Wrought Iron</option>
+              </select>
+              <br />
+              <br />
+              <br />
+              <br />
+              <label for="comments">*Additional Comments:</label>
+              <textarea
+                name="comments"
+                id="comments"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+              <p>Best time to reach you:</p>
+              <input
+                type="radio"
+                id="radiob"
+                name="callTime"
+                value="am"
+                required
+              />
+              <label for="radiob" id="radAm">AM - Between 7am and 12pm</label>
+              <input
+                type="radio"
+                id="radioc"
+                name="callTime"
+                value="pm"
+                required
+              />
+              <label for="radioc" id="radPm">PM - Between 1pm and 6pm</label>
+              <br />
+              <br />
+              <input type="submit" value="Submit" id="mySubmit" />
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>Copyright &copy; 2021 Home Towne Fence <br /></footer>
+  </body>
+</html>
